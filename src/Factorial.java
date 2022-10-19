@@ -15,6 +15,6 @@ public class Factorial {
 
 
         }
-        System.out.println(b);
+        System.out.println("Factorial of " + a + " is: " + b);
     }
 }
