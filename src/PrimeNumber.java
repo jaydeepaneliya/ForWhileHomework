@@ -2,8 +2,10 @@ import java.util.Scanner;
 
 public class PrimeNumber {
     public static void main(String[] args) {
-        int i, m, flag = 0; // flag variable initialised as a signal to let the program
-                            // know if certain condition meets or not
+
+        //flag variable initialised as a signal to let the program know if certain condition meets or not
+        int i, m, flag = 0;
+
         Scanner scanner= new Scanner(System.in); //Scanner used for the user flexibility to check any number
         System.out.println("Enter a number: ");
         int n = scanner.nextInt();
