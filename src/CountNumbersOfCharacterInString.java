@@ -13,7 +13,7 @@ public class CountNumbersOfCharacterInString {
 
         for (int i = 0; i < a.length(); i++) {
 
-            if(a.charAt(i) == search)
+            if(a.charAt(i) == search) //
             count++;
 
         }
